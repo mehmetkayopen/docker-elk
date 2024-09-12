@@ -1,0 +1,35 @@
+2024-09-11 10:00:01,123 [main] INFO  com.example.MyClass - Application started successfully.
+2024-09-11 10:00:02,234 [main] WARN  com.example.MyClass - Configuration file not found, using default settings.
+2024-09-11 10:00:03,345 [main] INFO  com.example.MyClass - Connecting to the database.
+2024-09-11 10:00:04,456 [main] ERROR com.example.MyClass - Failed to connect to database: Connection refused.
+2024-09-11 10:00:05,567 [main] INFO  com.example.MyClass - Retrying database connection.
+2024-09-11 10:00:06,678 [main] WARN  com.example.MyClass - Database connection is slow, retrying.
+2024-09-11 10:00:07,789 [main] INFO  com.example.MyClass - Database connection established.
+2024-09-11 10:00:08,890 [main] ERROR com.example.MyClass - Null pointer exception encountered during processing.
+2024-09-11 10:00:09,901 [main] INFO  com.example.MyClass - Processing request ID: 12345.
+2024-09-11 10:00:10,012 [main] WARN  com.example.MyClass - Request ID: 12345 took longer than expected.
+2024-09-11 10:01:13,345 [worker-1] INFO  com.example.TaskProcessor - Task 42 processed in 200 ms.
+2024-09-11 10:01:14,456 [worker-2] ERROR com.example.TaskProcessor - Failed to process task 43: ArrayIndexOutOfBoundsException.
+2024-09-11 10:01:15,567 [worker-3] INFO  com.example.DatabaseConnector - Database query executed successfully.
+2024-09-11 10:01:16,678 [worker-1] WARN  com.example.FileHandler - File /tmp/data.csv not found, using default file.
+2024-09-11 10:01:17,789 [worker-2] INFO  com.example.HttpClient - Sent request to https://api.example.com/data.
+2024-09-11 10:01:18,890 [worker-3] ERROR com.example.HttpClient - HTTP 500 error while accessing https://api.example.com/data.
+2024-09-11 10:01:19,901 [worker-1] INFO  com.example.Cache - Cache cleared successfully.
+2024-09-11 10:01:20,012 [main] WARN  com.example.Configuration - Deprecated configuration key 'maxThreads' detected, please update your settings.
+2024-09-11 10:01:21,123 [worker-4] INFO  com.example.Service - Heartbeat check passed for Service ID 87.
+2024-09-11 10:01:22,234 [main] WARN  com.example.Cache - Cache miss detected for key user123, loading from database.
+2024-09-11 10:01:23,345 [worker-5] INFO  com.example.TaskProcessor - Task 44 processed in 150 ms.
+2024-09-11 10:01:24,456 [worker-6] ERROR com.example.DatabaseConnector - Database connection lost: SQLException.
+2024-09-11 10:01:25,567 [worker-7] INFO  com.example.HttpClient - Received response with status 200 from https://api.example.com/status.
+2024-09-11 10:01:26,678 [worker-8] WARN  com.example.FileHandler - File not found: /path/to/missing/file.txt.
+2024-09-11 10:01:27,789 [main] INFO  com.example.Configuration - Loaded configuration file successfully.
+2024-09-11 10:01:28,890 [worker-9] ERROR com.example.ApiClient - Failed to fetch data from API: Timeout exception.
+2024-09-11 10:01:29,901 [worker-10] INFO  com.example.Scheduler - Scheduled task completed for job ID 1234.
+2024-09-11 10:01:30,012 [main] WARN  com.example.Security - Unauthorized access attempt detected from IP 192.168.1.100.
+2024-09-11 10:01:20,012 [main] WARN  com.example.Configuration - Deprecated configuration key 'maxThreads' detected, please update your settings.
+2024-09-11 10:01:21,123 [worker-4] INFO  com.example.Service - Heartbeat check passed for Service ID 87.
+2024-09-11 10:01:22,234 [main] WARN  com.example.Cache - Cache miss detected for key user123, loading from database.
+2024-09-11 10:01:23,345 [worker-5] INFO  com.example.TaskProcessor - Task 44 processed in 150 ms.
+2024-09-11 10:01:24,456 [worker-6] ERROR com.example.DatabaseConnector - Database connection lost: SQLException.
+2024-09-11 10:01:25,567 [worker-7] INFO  com.example.HttpClient - Received response with status 200 from https
+
